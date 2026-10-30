@@ -1,0 +1,9 @@
+[
+  {
+    "name": "vps-1",
+    "ip": "203.0.113.10",
+    "port": 22,
+    "user": "root",
+    "key": "C:/Users/you/.ssh/id_ed25519"
+  }
+]
