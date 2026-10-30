@@ -20,9 +20,3 @@ python monitor.py
 ```
 
 3. Abra http://localhost:8080
-
-## Segurança
-
-- O servidor escuta em `0.0.0.0:8080` e **não tem autenticação**. Em redes não confiáveis, troque para `127.0.0.1` em `monitor.py` ou coloque atrás de um proxy com senha.
-- O SSH usa `StrictHostKeyChecking=no`; prefira usar chaves dedicadas de acesso restrito.
-- Nunca commite `nodes.json` ou chaves privadas.
